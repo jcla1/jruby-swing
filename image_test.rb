@@ -1,7 +1,7 @@
-require "lib/shape.rb"
-require "lib/frame.rb"
-require "lib/canvas.rb"
-require "lib/shapes/image.rb"
+require_relative "lib/shape.rb"
+require_relative "lib/frame.rb"
+require_relative "lib/canvas.rb"
+require_relative "lib/shapes/image.rb"
 
 
 frame = Frame.new

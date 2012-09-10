@@ -1,9 +1,9 @@
-require "lib/shape.rb"
-require "lib/frame.rb"
-require "lib/canvas.rb"
-require "lib/shapes/triangle.rb"
-require "lib/shapes/rectangle.rb"
-require "lib/shapes/ellipse.rb"
+require_relative "lib/shape.rb"
+require_relative "lib/frame.rb"
+require_relative "lib/canvas.rb"
+require_relative "lib/shapes/triangle.rb"
+require_relative "lib/shapes/rectangle.rb"
+require_relative "lib/shapes/ellipse.rb"
 
 
 frame = Frame.new
